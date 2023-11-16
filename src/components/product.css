@@ -1,4 +1,16 @@
-.image-css{
- max-height: 200px;
-  object-fit: cover
+
+.card {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  height: 150px;
+  object-fit:scale-down; 
+}
+
+.card-body {
+  flex-grow: 1; 
+  overflow: hidden; 
 }
