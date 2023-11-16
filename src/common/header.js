@@ -27,7 +27,7 @@ const Header = () => {
     }
 
     return (
-        <div className="d-flex justify-content-between align-items-center p-3">
+        <div className="d-flex justify-content-between align-items-center p-3 mb-4 " style={{ backgroundColor: '#FFCCBC' }}>
             <h1>Amazon App</h1>
             <div className="d-flex" >
                 <input
@@ -39,7 +39,7 @@ const Header = () => {
                     value={searchTerm}
                     onChange={handleInputChange}
                 />
-                <button className="btn btn-outline-secondary" type="button" id="search-addon" onClick={handleSearch}>
+                <button className="btn btn-outline-secondary bg-primary text-white" type="button" id="search-addon" onClick={handleSearch}>
                     Search
                 </button>
             </div>

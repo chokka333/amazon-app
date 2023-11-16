@@ -13,7 +13,7 @@ const Home = () => {
 
   const products = useSelector((state) => state.products);
  return (
-    <div>
+    <div >
       <ProductList products={products} />
     </div>
   );
